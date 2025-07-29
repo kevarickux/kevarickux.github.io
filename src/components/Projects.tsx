@@ -8,7 +8,7 @@ const projects = [
     description: "UI/UX design for e-Video Cloud (EVC), an emerging cloud-based online video platform.",
     imageUrl: "https://i.imgur.com/c0LBzaF.png",
     tags: ["Web Design", "UX Research", "Prototype"],
-    link: "https://example.com/evc"
+    link: "https://www.figma.com/proto/JxCMJ5hrsyzp8yD755iNUL/EVC-website-share?node-id=18-285&p=f&t=n7YygD8y0AUZbewa-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=18%3A285"
   },
   {
     title: "E-commerce Furniture Store",
