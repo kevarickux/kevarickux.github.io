@@ -3,16 +3,16 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const extrasProjects = [
   {
-    imageUrl: "https://i.imgur.com/PpOOgDs.png",
+    imageUrl: "https://i.imgur.com/CkDTX8o.png?w=600&h=450&fit=crop",
     tags: ["Belnder 3d","Low Poly", "Beginner"]
   },
   {
-    imageUrl: "https://i.imgur.com/Ma2NNdB.png",
-    tags: ["Blender 3d", "Low Poly", "Beginner"]
+    imageUrl: "https://i.imgur.com/8kMADII.png?w=600&h=450&fit=crop",
+    tags: ["Blender 3d", "Sword Modelling", "Beginner"]
   },
   {
-    imageUrl: "https://i.imgur.com/jJH3nZ0.png",
-    tags: ["Blender 3d", "Sword Modelling", "Beginner"]
+    imageUrl: "https://i.imgur.com/dCGTa8o.png?w=600&h=450&fit=crop",
+    tags: ["Blender 3d", "Low Poly", "Beginner"]
   }
 ];
 
@@ -105,14 +105,19 @@ export function Extras() {
                   'w-[calc(33.333%-1.333rem)]'
                 }`}
               >
-                <div className="w-full aspect-[16/9] rounded-xl overflow-hidden shadow-lg">
+                <div className="w-full aspect-[16/9] rounded-xl overflow-hidden shadow-lg bg-gray-100">
                   <img
                     src={project.imageUrl}
                     alt={`Extras Project ${index + 1}`}
                     className="w-full h-full object-cover"
-                    width={1920}
-                    height={1080}
+                    width={600}
+                    height={450}
                     loading="lazy"
+                    decoding="async"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                    }}
                   />
                 </div>
                 {/* Tags */}
