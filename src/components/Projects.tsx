@@ -8,28 +8,35 @@ const projects = [
     description: "UI/UX design for e-Video Cloud (EVC), an emerging cloud-based online video platform.",
     imageUrl: "https://i.imgur.com/c0LBzaF.png?w=600&h=450&fit=crop",
     tags: ["Web Design", "UX Research", "Prototype"],
-    link: "https://example.com/evc"
+    link: "https://www.figma.com/proto/JxCMJ5hrsyzp8yD755iNUL/EVC-website-share?node-id=18-285&p=f&t=n7YygD8y0AUZbewa-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=18%3A285"
   },
   {
     title: "E-commerce Furniture Store",
     description: "Clean, minimalist UI/UX design for a high-end furniture e-commerce platform. Focuses on a calming aesthetic and user-friendly shopping.",
     imageUrl: "https://i.imgur.com/Qw3qRcg.png?w=600&h=450&fit=crop",
     tags: ["Web Design", "E-Commerce", "Prototype"],
-    link: "https://example.com/furniture"
+    link: "https://www.figma.com/proto/04Zqx9vdTz6y7seC4GU2QE/Furniture-Site?node-id=2-2&p=f&t=nTl9vgWSkPy1GCcA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+  },
+  {
+    title: "Tesla Website Concept Design",
+    description: "Clean, minimalist UI/UX design for a high-end furniture e-commerce platform. Focuses on a calming aesthetic and user-friendly shopping.",
+    imageUrl: "https://i.imgur.com/Vj5HJWz.png?w=600&h=450&fit=crop",
+    tags: ["Web Design", "Prototype"],
+    link: "https://www.figma.com/proto/TIMhpgWPnon3PhqzVF0c4y/Untitled?page-id=0%3A1&node-id=3-8&p=f&viewport=23%2C289%2C0.51&t=IkmZF8sMcHVmg06w-1&scaling=contain&content-scaling=fixed"
   },
   {
     title: "Futuristic Landing Page",
     description: "Sleek and futuristic web design for a smart glasses brand. Combines high-tech visuals with a user-centric flow.",
     imageUrl: "https://i.imgur.com/BfWxq1h.png?w=600&h=450&fit=crop",
     tags: ["Web Design", "Futuristic UI", "Prototype"],
-    link: "https://example.com/smartglasses"
+    link: "https://www.figma.com/proto/XV9S38AWTL1awMuTTSaPGb/Figma-Tutorial-for-Beginners--2024---Community-?node-id=5-3&p=f&t=jyy48zVK4fJvgPQV-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
   },
   {
     title: "Web-Based Taxi Reservation System",
     description: "A web-based taxi reservation system for 'Auto Cars' a long-standing taxi service. The design provides a fast and convenient booking experience",
     imageUrl: "https://i.imgur.com/5BJhmBK.png?w=600&h=450&fit=crop",
     tags: ["UX Research", "User Research", "Prototype"],
-    link: "https://example.com/taxi"
+    link: "https://www.figma.com/proto/DiluQuZkcRRwhr2jQarsQ8/Auto-Cars?node-id=2-6&p=f&t=fGUPhT62ir7yFavH-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A6"
   }
 ];
 
