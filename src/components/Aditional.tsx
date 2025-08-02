@@ -3,15 +3,15 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const extrasProjects = [
   {
-    imageUrl: "https://i.imgur.com/CkDTX8o.png?w=600&h=450&fit=crop",
+    imageUrl: "https://i.imgur.com/PpOOgDs.png",
     tags: ["Belnder 3d","Low Poly", "Beginner"]
   },
   {
-    imageUrl: "https://i.imgur.com/8kMADII.png?w=600&h=450&fit=crop",
+    imageUrl: "https://i.imgur.com/Ma2NNdB.png",
     tags: ["Blender 3d", "Sword Modelling", "Beginner"]
   },
   {
-    imageUrl: "https://i.imgur.com/dCGTa8o.png?w=600&h=450&fit=crop",
+    imageUrl: "https://i.imgur.com/jJH3nZ0.png",
     tags: ["Blender 3d", "Low Poly", "Beginner"]
   }
 ];
